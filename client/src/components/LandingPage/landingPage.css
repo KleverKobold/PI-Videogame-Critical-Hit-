@@ -1,0 +1,60 @@
+
+
+
+
+.landingDiv{
+        margin-top: 60px;
+        justify-content: center;
+        align-items: center;
+        padding: 200px ,  200px 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+
+        
+
+}
+
+.btnLanding{
+        
+        font-family: 'Oswald', sans-serif;
+        font-size:  40px; ;
+        width: 100%;     
+        max-width: 200px;     
+        height: 120px;     
+        border: 3px solid;     
+        color: #000;
+        margin-top: 50px;
+         background: none;     
+         outline: none;     
+         border-radius: 5px;     
+         cursor: pointer;     
+         font-weight: bold;    
+          position: relative;}  
+          .btnLanding::before, .btnLanding::after {     
+                content: '';     
+                position: absolute;     
+                width: 14px;     
+                height: 3px;     
+                background:#dcdde1;     
+                transform: skewX(40deg);     
+                transition: .3s linear; }  
+                .btnLanding::before {     top: -3px;     left: 10%; }  
+                .btnLanding::after {     bottom: -3px;     right: 10%; }  
+                .btnLanding:hover::before {     left: 85%; }   
+                .btnLanding:hover::after {     right: 85%}
+
+
+
+.question{
+        font-family: 'Oswald', sans-serif;
+       
+        border-radius: 18px;
+        border: #000;
+        font-size: 55px;
+        cursor:default;
+
+        
+}

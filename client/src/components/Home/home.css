@@ -1,0 +1,111 @@
+.homeScreen{
+    background-color: hsla(0, 100%, 0%, 0.6);
+    
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:flex-start;
+    justify-content: space-around;
+    align-content: space-between;
+    padding: 20px 20px;
+    margin: 30px 20px 45px 10px;
+    background-color: #718093;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+
+
+.linkToCreate{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+    color: #000;
+    margin: 30px 60px 45px 30px;
+    cursor: pointer;
+}
+
+.linkToCreate:hover{
+    border-bottom: solid #dcdde1;
+    text-shadow: -1px -1px 0 #dcdde1, 1px -1px 0 #dcdde1, -1px 1px 0 #dcdde1, 1px 1px 0 #dcdde1;
+}
+
+.linkToCard{
+    text-decoration: none;
+    
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 50px;
+  margin: 100px;
+  border: 200px;
+  width: 100px;
+  height: 100px;
+}
+
+.titleHome{
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    text-shadow: -1px -1px 0 #dcdde1, 1px -1px 0 #dcdde1, -1px 1px 0 #dcdde1, 1px 1px 0 #dcdde1;
+    margin: -10px 60px 45px 30px;
+    font-size:70px ;
+}
+
+.btnAllGames{
+ font-family: 'Oswald', sans-serif;
+ font-size: larger;
+ color: #000;
+ background-color: #dcdde1;
+ border-radius: 10px;
+}
+.btnAllGames:hover{
+cursor: pointer;
+color:#dcdde1 ;
+background-color: #000;
+}
+
+
+
+
+.selectByName{
+    font-family: 'Oswald', sans-serif;
+}
+.selectByName:hover{
+    cursor: pointer;
+}
+
+.selectByRating{
+    font-family: 'Oswald', sans-serif;
+}
+.selectByRating:hover{
+    cursor: pointer;
+}
+
+.selectByCreation{
+    font-family: 'Oswald', sans-serif;
+}
+
+.selectByCreation:hover{
+    cursor: pointer;
+}
+
+.selectByGenre{
+    font-family: 'Oswald', sans-serif;
+}
+.selectByGenre:hover{
+    cursor: pointer;
+}
+
+.paginateHome{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:flex-start;
+    justify-content:center;
+    align-content: space-between;
+}
+
+

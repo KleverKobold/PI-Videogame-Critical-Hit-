@@ -1,0 +1,31 @@
+.divOnSearch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 500px, 30px;
+}
+
+
+.btnOnSearch{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    
+    color: #000;
+    background-color: #dcdde1;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+}
+.btnOnSearch:hover{
+    cursor: pointer;
+color:#dcdde1 ;
+background-color: #000;
+}
+
+.inputOnSearch{
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+}

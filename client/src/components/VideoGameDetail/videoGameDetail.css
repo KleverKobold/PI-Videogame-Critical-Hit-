@@ -1,0 +1,58 @@
+.gameLetters{
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    text-shadow: -1px -1px 0 #dcdde1, 1px -1px 0 #dcdde1, -1px 1px 0 #dcdde1, 1px 1px 0 #dcdde1;
+    
+    
+}
+
+.gameTitle{
+    cursor:default;
+}
+
+.gameImg{
+    border-radius: 20px;
+}
+.gameDesc{
+    font-weight: bold;
+    font-size: large;
+    background-color: hsla(0, 100%, 0%, 0.6);
+    border-radius: 15px;
+    cursor:default;
+}
+
+
+.btnGoHome{
+    margin-top: 20px;
+        color: #000;
+        background-color: #dcdde1;
+        font-size: 30px;
+        border-radius: 20px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        
+}
+.btnGoHome:hover{
+    cursor: pointer;
+    color:#dcdde1 ;
+    background-color: #000;
+
+}
+
+.loading{
+    padding: 300px;
+    background-color: hsla(0, 100%, 0%, 0.6);
+
+}
+
+.loadingImg{
+    border-radius: 15px;
+}
+
+.loadingTxt{
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    text-shadow: -1px -1px 0 #dcdde1, 1px -1px 0 #dcdde1, -1px 1px 0 #dcdde1, 1px 1px 0 #dcdde1;
+    font-size: larger;
+    font-weight: bold;
+}

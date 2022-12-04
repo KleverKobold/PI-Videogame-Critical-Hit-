@@ -1,0 +1,118 @@
+.formCreate{
+    align-items: center;
+    justify-content: center;
+    margin: 40px 700px;
+    width: 300px;
+    flex-direction: column;
+    background-color: hsla(0, 100%, 0%, 0.6);
+    border-radius: 10px;
+}
+
+
+.btnGoBack{
+    font-family: 'Oswald', sans-serif;
+    width: 70px;
+    font-size: large;
+    border-radius: 20px;
+    color: #000;
+ background-color: #dcdde1;
+}
+.btnGoBack:hover{
+    cursor: pointer;
+    color:#dcdde1 ;
+    background-color: #000;
+}
+
+.titleCreate{
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    text-shadow: -1px -1px 0 #dcdde1, 1px -1px 0 #dcdde1, -1px 1px 0 #dcdde1, 1px 1px 0 #dcdde1;
+}
+
+.inputCreate{
+    font-family: 'Oswald', sans-serif;
+    border-radius: 10px;
+    font-size: medium;
+    color:#dcdde1;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin: 20px 10px;
+    font-weight: bold;
+}
+
+.selectCreate{
+    font-family: 'Oswald', sans-serif;
+    border-radius: 10px;
+    font-size: medium;
+}
+.selectCreate:hover{
+    cursor: pointer;
+    color:#dcdde1 ;
+    background-color: #000;   
+}
+
+.submitCreate{
+    font-family: 'Oswald', sans-serif;
+    width: 120px;
+    font-size: large;
+    border-radius: 20px;
+    color: #000;
+ background-color: #dcdde1;   
+}
+.submitCreate:hover{
+    cursor: pointer;
+    color:#dcdde1 ;
+    background-color: #000;  
+}
+
+.genreCreate{
+    font-family: 'Oswald', sans-serif;
+    border-radius: 10px;
+    font-size: medium;
+    color: #000;
+    background-color: #dcdde1;
+
+    width: 70px;
+}
+.genreCreate:hover{
+    cursor: pointer;
+    color:#dcdde1 ;
+    background-color: #000;
+}
+
+.platfCreate{
+    font-family: 'Oswald', sans-serif;
+    border-radius: 10px;
+    font-size: medium;
+    color: #000;
+    background-color: #dcdde1;
+
+    width: 50px; 
+}
+.platfCreate:hover{
+    cursor: pointer;
+    color:#dcdde1 ;
+    background-color: #000;
+}
+
+.buttonX{
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+    font-size: medium;
+    color: #000;
+    background-color: #dcdde1;
+    width: 20px;
+    height: 20px;
+    
+}
+.buttonX:hover{
+    cursor: pointer;
+    color:#dcdde1 ;
+    background-color: #000;
+}
+
+.error{
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    text-shadow: -1px -1px 0 yellow, 1px -1px 0 yellow, -1px 1px 0 yellow, 1px 1px 0 yellow;
+    font-weight:bold;
+}

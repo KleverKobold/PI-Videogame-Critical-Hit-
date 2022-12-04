@@ -1,0 +1,26 @@
+.paginate{
+    display: flex;
+    flex-direction: row;
+    color:#000;
+    font-family: 'Oswald', sans-serif;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    align-content: space-around;
+    padding: 10px 40px;
+    justify-content: space-around;   
+    margin: 30px 700px;
+    width: 200px;
+    background-color: #dcdde1;
+    border-radius: 20px;
+    
+    
+}
+.number{
+    cursor: pointer;
+    margin: 10px 8px;
+}
+
+.number:hover{
+    text-shadow: -1px -1px 0 #718093, 1px -1px 0 #718093, -1px 1px 0 #718093, 1px 1px 0 #718093;
+}

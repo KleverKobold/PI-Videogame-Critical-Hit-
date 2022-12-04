@@ -1,0 +1,26 @@
+.videogameCard:hover{
+    
+    color: #dcdde1;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.videogameCard{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size:large;
+    color: #000;
+    text-shadow: -1px -1px 0 #dcdde1, 1px -1px 0 #dcdde1, -1px 1px 0 #dcdde1, 1px 1px 0 #dcdde1;
+    
+   
+    
+    
+}
+
+.imgGameCard{
+    border-radius: 20px;
+    
+}
+
+.descGameCard a {
+ text-align: center;
+ width: 100px;
+}
