@@ -9,7 +9,7 @@ const getAllGenres = async () => {
       `https://api.rawg.io/api/genres?key=${APIKEY}`
     );
     console.log("apiUrl=", apiUrl.data.results);
-    const apiGenres = await apiUrl.data.results.map((g) => g.id);
+    const apiGenres = await apiUrl.data.results.map((g) => g.name);
     console.log("apiGenres", apiGenres);
 
     apiGenres.map((genre) => {
